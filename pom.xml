@@ -30,6 +30,11 @@
 			<artifactId>spring-boot-starter</artifactId>
 			<version>1.3.6.RELEASE</version>
 		</dependency>
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.7</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -37,17 +42,17 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-<!-- 			<plugin> -->
-<!-- 				<groupId>org.apache.maven.plugins</groupId> -->
-<!-- 				<artifactId>maven-jar-plugin</artifactId> -->
-<!-- 				<configuration> -->
-<!-- 					<archive> -->
-<!-- 						<manifest> -->
-<!-- 							<mainClass>com.pramati.EmailSender.App</mainClass> -->
-<!-- 						</manifest> -->
-<!-- 					</archive> -->
-<!-- 				</configuration> -->
-<!-- 			</plugin> -->
+			<!-- <plugin> -->
+			<!-- <groupId>org.apache.maven.plugins</groupId> -->
+			<!-- <artifactId>maven-jar-plugin</artifactId> -->
+			<!-- <configuration> -->
+			<!-- <archive> -->
+			<!-- <manifest> -->
+			<!-- <mainClass>com.pramati.EmailSender.App</mainClass> -->
+			<!-- </manifest> -->
+			<!-- </archive> -->
+			<!-- </configuration> -->
+			<!-- </plugin> -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>
