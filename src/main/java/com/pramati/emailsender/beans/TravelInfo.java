@@ -11,10 +11,15 @@ public class TravelInfo {
 	private Employee employee;
 	private List<Traveller> travellers;
 	private List<Trip> trips;
+<<<<<<< HEAD
 	private List<Facilities> facilites;
 	private String clientName;
 	private String approvingManagerEmail;
 	
+=======
+	private List<Fecility> fecilites;
+	private String clientName;
+>>>>>>> 547909aea75b2c7a94cf202b10b8abe7c72779cd
 	
 	public String getClientName() {
 		return clientName;
@@ -70,6 +75,7 @@ public class TravelInfo {
 	public void setTrips(List<Trip> trips) {
 		this.trips = trips;
 	}
+<<<<<<< HEAD
 	public List<Facilities> getFacilites() {
 		return facilites;
 	}
@@ -81,6 +87,13 @@ public class TravelInfo {
 	}
 	public void setApprovingManagerEmail(String approvingManagerEmail) {
 		this.approvingManagerEmail = approvingManagerEmail;
+=======
+	public List<Fecility> getFecilites() {
+		return fecilites;
+	}
+	public void setFecilites(List<Fecility> fecilites) {
+		this.fecilites = fecilites;
+>>>>>>> 547909aea75b2c7a94cf202b10b8abe7c72779cd
 	}
 	
 	
